@@ -1,0 +1,24 @@
+print()
+print("\tEmployees years in service and office");
+print()
+office = str(input("\Office [IT, ACCOUNTING, HR]: "))
+years_service = float(input("\tNo. of years in service: "))
+
+if (office.lower() == 'it') and (years_service >=10):
+    salary = 10000
+elif (office.lower() == 'it') and (years_service <10):
+    salary = 5000
+elif (office.lower() == 'accounting') and (years_service) >=10):
+    salary = 12000
+elif (office.lower() == 'accounting') and (years_service < 10):
+    salary =6000
+elif (office.lower() == 'hr') and (years_service >=10):
+    salary =15000
+else:
+    salary =7500
+    
+print()
+print("\tName.               : " + office.upper())
+print("\tYears of service")  : " + str (years_service))"
+print("\tSalary              : " + str(salary))
+print():
